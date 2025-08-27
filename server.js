@@ -1,6 +1,6 @@
 const express = require('express');
 const cors = require('cors');
-const aiRouter = require('./routes/ai.routes'); // adjust path
+const aiRouter = require('../routes/ai.routes'); // adjust path
 
 const app = express();
 
